@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CIS - View Patient Records</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Patient Records (by Date)</h2>
+
+  <input type="date" id="filterDate">
+  <button onclick="filterRecords()">View</button>
+  <button onclick="printRecords()">Print</button>
+  <button onclick="clearAll()">Delete All</button>
+
+  <ul id="recordList"></ul>
+
+  <br>
+  <a href="index.html">Back to Form</a>
+
+  <script src="view.js"></script>
+</body>
+</html>

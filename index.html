@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CIS - Clinic Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Clinic Management - CIS</h2>
+
+  <form id="clinicForm">
+    <input type="text" name="firstName" placeholder="First Name" required><br>
+    <input type="text" name="lastName" placeholder="Last Name" required><br>
+    <input type="number" name="age" placeholder="Age" required><br>
+    <select name="sex" required>
+      <option value="">Select Sex</option>
+      <option value="M">Male</option>
+      <option value="F">Female</option>
+    </select><br>
+    <input type="text" name="phone" placeholder="Phone"><br>
+    <input type="email" name="email" placeholder="Email Address"><br>
+    <input type="text" name="address" placeholder="Address"><br>
+    <input type="date" name="walkInDate" placeholder="Walk-in Date" required><br>
+    <input type="text" name="department" placeholder="Department"><br>
+    <input type="text" name="civilStatus" placeholder="Civil Status"><br>
+    <input type="text" name="religion" placeholder="Religion"><br>
+
+    <input type="text" name="cc" placeholder="C/C (Chief Complaint)"><br>
+    <input type="text" name="history" placeholder="History of Past Illness"><br>
+    <input type="text" name="remarks" placeholder="Remarks"><br>
+    <input type="text" name="sickLeave" placeholder="Sick Leave"><br>
+    <label>Date From: <input type="date" name="dateFrom"></label><br>
+    <label>Date To: <input type="date" name="dateTo"></label><br><br>
+
+    <button type="submit">Add Record</button><br><br>
+    <a href="view.html">View Records</a>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
